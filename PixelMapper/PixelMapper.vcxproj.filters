@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\10 Main">
+      <UniqueIdentifier>{d2275671-2c2b-4c3f-b65c-3b935b9b0775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\20 Dialogs">
+      <UniqueIdentifier>{c623bf3c-4e87-4d32-a901-64c3684f2dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\40 PixelDriver">
+      <UniqueIdentifier>{ffcbd317-28b1-44c2-b57b-fafc36775388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\30 PixelLearner">
+      <UniqueIdentifier>{e4c99795-2ae7-4df6-8847-c0f174ae5e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\50 PixelCamera">
+      <UniqueIdentifier>{8434dbc4-d198-40fb-8eb2-58a17569d675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\60 PixelConverter">
+      <UniqueIdentifier>{ca1cdc2c-6ad9-4781-9e9f-cc7a4880b553}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelMapperDlg.h">
+      <Filter>Source Files\20 Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelMapper.h">
+      <Filter>Source Files\10 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\10 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files\10 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelLearnerBase.h">
+      <Filter>Source Files\30 PixelLearner</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCameraBase.h">
+      <Filter>Source Files\50 PixelCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixelimage.h">
+      <Filter>Source Files\50 PixelCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCameraSimulator.h">
+      <Filter>Source Files\50 PixelCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelDriverBase.h">
+      <Filter>Source Files\40 PixelDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelDriverSimulator.h">
+      <Filter>Source Files\40 PixelDriver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PixelMapperDlg.cpp">
+      <Filter>Source Files\20 Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelMapper.cpp">
+      <Filter>Source Files\10 Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\10 Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelLearnerBase.cpp">
+      <Filter>Source Files\30 PixelLearner</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCameraBase.cpp">
+      <Filter>Source Files\50 PixelCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Pixelimage.cpp">
+      <Filter>Source Files\50 PixelCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCameraSimulator.cpp">
+      <Filter>Source Files\50 PixelCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelDriverBase.cpp">
+      <Filter>Source Files\40 PixelDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelDriverSimulator.cpp">
+      <Filter>Source Files\40 PixelDriver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PixelMapper.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PixelMapper.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PixelMapper.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
