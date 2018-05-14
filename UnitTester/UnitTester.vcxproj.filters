@@ -13,6 +13,9 @@
     <ClCompile Include="Test_PixelDriverSimulator.cpp">
       <Filter>20 Tests</Filter>
     </ClCompile>
+    <ClCompile Include="Test_PixelLearner.cpp">
+      <Filter>20 Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="10 Main">

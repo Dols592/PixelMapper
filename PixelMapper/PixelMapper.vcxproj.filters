@@ -44,9 +44,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Source Files\10 Main</Filter>
     </ClInclude>
-    <ClInclude Include="PixelLearnerBase.h">
-      <Filter>Source Files\30 PixelLearner</Filter>
-    </ClInclude>
     <ClInclude Include="PixelCameraBase.h">
       <Filter>Source Files\50 PixelCamera</Filter>
     </ClInclude>
@@ -62,6 +59,9 @@
     <ClInclude Include="PixelDriverSimulator.h">
       <Filter>Source Files\40 PixelDriver</Filter>
     </ClInclude>
+    <ClInclude Include="PixelLearner.h">
+      <Filter>Source Files\30 PixelLearner</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PixelMapperDlg.cpp">
@@ -72,9 +72,6 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files\10 Main</Filter>
-    </ClCompile>
-    <ClCompile Include="PixelLearnerBase.cpp">
-      <Filter>Source Files\30 PixelLearner</Filter>
     </ClCompile>
     <ClCompile Include="PixelCameraBase.cpp">
       <Filter>Source Files\50 PixelCamera</Filter>
@@ -90,6 +87,9 @@
     </ClCompile>
     <ClCompile Include="PixelDriverSimulator.cpp">
       <Filter>Source Files\40 PixelDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelLearner.cpp">
+      <Filter>Source Files\30 PixelLearner</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

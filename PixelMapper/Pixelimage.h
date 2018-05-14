@@ -3,7 +3,7 @@
 struct SImageBuffer
 {
   int32_t BytesAllocated;
-  char* Buffer;
+  uint8_t* Buffer;
 };
 
 struct SImageInfo
@@ -23,6 +23,7 @@ public: //Constructor
 
 public: //Interface
   void Reset();
+  void EnsureAllocation();
   void EnsureAllocation(uint32_t Size);
   void CopyFrom(const CPixelimage& OrgImage);
 

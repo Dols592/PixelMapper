@@ -54,6 +54,7 @@
     <ClCompile Include="Test_PixelCameraSimulator.cpp" />
     <ClCompile Include="Test_PixelDriverSimulator.cpp" />
     <ClCompile Include="Test_PixelImage.cpp" />
+    <ClCompile Include="Test_PixelLearner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PixelMapper\PixelMapper.vcxproj">

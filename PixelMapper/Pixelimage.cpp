@@ -25,11 +25,17 @@ void CPixelimage::Reset()
   ImageInfo.ImageIsColor = false;
 }
 
+void CPixelimage::EnsureAllocation()
+{
+  uint32_t ImageSize = ImageInfo.Height * ImageInfo.Pitch;
+  EnsureAllocation(ImageSize);
+}
+
 void CPixelimage::EnsureAllocation(uint32_t Size)
 {
   if (ImageBuffer.BytesAllocated < Size)
   {
-    ImageBuffer.Buffer = (char*) realloc(ImageBuffer.Buffer, Size);
+    ImageBuffer.Buffer = (uint8_t*) realloc(ImageBuffer.Buffer, Size);
     ImageBuffer.BytesAllocated = Size;
   }
 }

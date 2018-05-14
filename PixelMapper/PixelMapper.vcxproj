@@ -115,7 +115,7 @@
     <ClInclude Include="PixelDriverBase.h" />
     <ClInclude Include="PixelDriverSimulator.h" />
     <ClInclude Include="Pixelimage.h" />
-    <ClInclude Include="PixelLearnerBase.h" />
+    <ClInclude Include="PixelLearner.h" />
     <ClInclude Include="PixelMapper.h" />
     <ClInclude Include="PixelMapperDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -128,7 +128,7 @@
     <ClCompile Include="PixelDriverBase.cpp" />
     <ClCompile Include="PixelDriverSimulator.cpp" />
     <ClCompile Include="Pixelimage.cpp" />
-    <ClCompile Include="PixelLearnerBase.cpp" />
+    <ClCompile Include="PixelLearner.cpp" />
     <ClCompile Include="PixelMapper.cpp" />
     <ClCompile Include="PixelMapperDlg.cpp" />
     <ClCompile Include="stdafx.cpp">

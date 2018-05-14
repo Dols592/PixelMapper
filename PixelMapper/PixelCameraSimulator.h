@@ -15,6 +15,6 @@ public: //Interface overrides from CPixelCameraBase
 public: //Interface
   void CreateImage(uint32_t Width, uint32_t Height, bool Color);
 
-protected: //Variables
+public: //Variables
   CPixelimage TestImage;
 };
