@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClInclude Include="PixelCameraBase.h" />
     <ClInclude Include="PixelCameraSimulator.h" />
+    <ClInclude Include="PixelConverter.h" />
     <ClInclude Include="PixelDriverBase.h" />
     <ClInclude Include="PixelDriverSimulator.h" />
     <ClInclude Include="Pixelimage.h" />
@@ -125,6 +126,7 @@
   <ItemGroup>
     <ClCompile Include="PixelCameraBase.cpp" />
     <ClCompile Include="PixelCameraSimulator.cpp" />
+    <ClCompile Include="PixelConverter.cpp" />
     <ClCompile Include="PixelDriverBase.cpp" />
     <ClCompile Include="PixelDriverSimulator.cpp" />
     <ClCompile Include="Pixelimage.cpp" />

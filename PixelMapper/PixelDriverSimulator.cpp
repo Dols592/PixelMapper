@@ -59,3 +59,13 @@ void CPixelDriverSimulator::SetPixelColor(int32_t Pos, uint64_t Value)
 {
 
 }
+
+void CPixelDriverSimulator::ResetImageGray(uint8_t Value)
+{
+	memset(CameraSimulator.TestImage.ImageBuffer.Buffer, Value, CameraSimulator.TestImage.ImageBuffer.BytesAllocated);
+}
+
+SImageXY CPixelDriverSimulator::GetPixelPos(int32_t Pos)
+{
+  return PosToImageXY[Pos];
+}

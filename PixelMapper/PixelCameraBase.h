@@ -9,7 +9,7 @@ public: //Constructor
 	virtual ~CPixelCameraBase();
 
 public: //Interface
-  virtual CPixelimage& GetImage() = 0;
+  virtual const CPixelimage& GetImage() = 0;
 
 protected: //Help functions
 

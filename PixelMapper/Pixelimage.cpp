@@ -47,3 +47,14 @@ void CPixelimage::CopyFrom(const CPixelimage& OrgImage)
   
   ImageInfo = OrgImage.ImageInfo;
 }
+
+bool CPixelimage::SameDimension(const CPixelimage& Other)
+{
+  if (ImageInfo.Width != Other.ImageInfo.Width) return false;
+  if (ImageInfo.Height != Other.ImageInfo.Height) return false;
+  if (ImageInfo.Pitch != Other.ImageInfo.Pitch) return false;
+  if (ImageInfo.ImageIsColor != Other.ImageInfo.ImageIsColor) return false;
+  if (ImageInfo.ImageIsColor != Other.ImageInfo.ImageIsColor) return false;
+
+  return true;
+}

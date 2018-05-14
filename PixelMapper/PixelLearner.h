@@ -10,11 +10,14 @@ public: //Constructor
 	virtual ~CPixelLearner();
 
 public: //Interface
+  void SetBackground();
+  void FindAllPixels();
+  SImageXY FindPixelPos();
 
 protected: //Help Functions
 
 protected: //Variables
   CPixelCameraBase& Camera;
   CPixelDriverBase& Driver;
-
+  CPixelimage BackgroundImage;
 };

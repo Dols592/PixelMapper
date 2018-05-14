@@ -8,7 +8,7 @@ TEST(CameraImageCreation, CreateBlackImage)
   CPixelCameraSimulator TestCamera;
   TestCamera.CreateImage(100, 100, false);
 
-  CPixelimage& TestImage = TestCamera.GetImage();
+  const CPixelimage& TestImage = TestCamera.GetImage();
   EXPECT_EQ(10000, TestImage.ImageBuffer.BytesAllocated);
   //EXPECT_TRUE(true);
 }

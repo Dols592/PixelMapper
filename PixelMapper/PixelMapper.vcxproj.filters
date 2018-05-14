@@ -62,6 +62,9 @@
     <ClInclude Include="PixelLearner.h">
       <Filter>Source Files\30 PixelLearner</Filter>
     </ClInclude>
+    <ClInclude Include="PixelConverter.h">
+      <Filter>Source Files\60 PixelConverter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PixelMapperDlg.cpp">
@@ -90,6 +93,9 @@
     </ClCompile>
     <ClCompile Include="PixelLearner.cpp">
       <Filter>Source Files\30 PixelLearner</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelConverter.cpp">
+      <Filter>Source Files\60 PixelConverter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

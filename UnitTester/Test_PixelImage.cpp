@@ -19,7 +19,6 @@ TEST(ImageCreation, Empty)
   CPixelimage TestImage;
 
   EXPECT_EQ(0, TestImage.ImageBuffer.BytesAllocated);
-  //EXPECT_TRUE(true);
 }
 
 TEST(ImageCreation, Reset)
@@ -28,7 +27,6 @@ TEST(ImageCreation, Reset)
   TestImage.Reset();
 
   EXPECT_EQ(0, TestImage.ImageBuffer.BytesAllocated);
-  //EXPECT_TRUE(true);
 }
 
 TEST(ImageCreation, Allocate)
@@ -39,7 +37,6 @@ TEST(ImageCreation, Allocate)
   EXPECT_EQ(10, TestImage.ImageBuffer.BytesAllocated);
   TestImage.EnsureAllocation(1000);
   EXPECT_EQ(1000, TestImage.ImageBuffer.BytesAllocated);
-  //EXPECT_TRUE(true);
 }
 
 TEST(ImageCopy, SimpleCopy)

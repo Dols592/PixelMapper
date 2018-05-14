@@ -2,7 +2,7 @@
 
 struct SImageBuffer
 {
-  int32_t BytesAllocated;
+  uint32_t BytesAllocated;
   uint8_t* Buffer;
 };
 
@@ -15,17 +15,34 @@ struct SImageInfo
   bool ImageIsColor;
 };
 
+
+struct SImageXY
+{
+  int32_t x;
+  int32_t y;
+  SImageXY()
+  {
+    x = -1;
+    y = -1;
+  }
+};
+
 class CPixelimage
 {
 public: //Constructor
 	CPixelimage();
 	virtual ~CPixelimage();
 
+public: //Operators
+  //CPixelimage & operator= (const CPixelimage& other);
+  bool SameDimension(const CPixelimage& Other);
+
 public: //Interface
   void Reset();
   void EnsureAllocation();
   void EnsureAllocation(uint32_t Size);
   void CopyFrom(const CPixelimage& OrgImage);
+
 
 protected: //Help functions
 

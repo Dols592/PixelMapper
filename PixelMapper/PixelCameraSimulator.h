@@ -9,8 +9,7 @@ public: //Constructor
   virtual ~CPixelCameraSimulator();
 
 public: //Interface overrides from CPixelCameraBase
-  virtual CPixelimage& GetImage();
-
+  virtual const CPixelimage& GetImage();
 
 public: //Interface
   void CreateImage(uint32_t Width, uint32_t Height, bool Color);

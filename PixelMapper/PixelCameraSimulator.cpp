@@ -23,7 +23,7 @@ void CPixelCameraSimulator::CreateImage(uint32_t Width, uint32_t Height, bool Co
   memset(TestImage.ImageBuffer.Buffer, 0, TestImage.ImageBuffer.BytesAllocated);
 }
 
-CPixelimage& CPixelCameraSimulator::GetImage()
+const CPixelimage& CPixelCameraSimulator::GetImage()
 {
   return TestImage;
 }
